@@ -1,9 +1,12 @@
 body{
     margin: 0px;
+    background-color: #e0e0e0;
 }
+
 .Active{
     background-color: rgb(64, 64, 64);
 }
+
 ul{
     list-style-type: none;
     margin: 0px;
@@ -11,56 +14,72 @@ ul{
     background-color: #111;
     padding: 10px 20px;
 }
+
 li a{
     text-decoration: none;
     color: #AAA;
     padding: 15px;
     font-size: 32px;
 }
+
 li{
     float: left;
 }
+
 li a:hover{
     background-color: rgb(153, 153, 153);
     color: #444;
 }
+
 .titulo{
     display: flex;
     justify-content: center;
 }
+
 .texto{
     text-align: left;
     width: 50%;
     margin: 8px;
 }
+
 nav{
     position: relative;
     width: 100%;
 }
+
 table{
     display: inline-block;
     margin-top: 70px;
     border-spacing: 0px;
     margin: 4px;
-    
 }
+
 table, th, tr, tbody, td{
     border: 1px solid black;
 }
+
 .pai{
     border: 1px solid black;
-    margin: 4px auto;
-    padding: 6px;
-    height: 100px;
+    margin: 0 auto;
+    margin-top: 11%;
+    padding: 8px 6px;
+    height: auto;
+    width: 11%;
 }
+
 .filho{
     height: 50px;
-
     margin: 0 auto;
     text-align: center;
 }
+
 .input{
     display: inline-block;
+    padding: 4px 6px;
+    margin: 2px 8px;
 }
 
+.label{
+    display: block;
+}
 
