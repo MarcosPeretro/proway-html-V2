@@ -59,12 +59,13 @@ table, th, tr, tbody, td{
 }
 
 .pai{
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 0 auto;
     margin-top: 11%;
     padding: 8px 6px;
     height: auto;
     width: 11%;
+    border-radius: 5px;
 }
 
 .filho{
@@ -77,9 +78,34 @@ table, th, tr, tbody, td{
     display: inline-block;
     padding: 4px 6px;
     margin: 2px 8px;
+    border-radius: 12px;
+    border: 2px solid black;
 }
 
 .label{
     display: block;
-}
 
+}
+.input:focus-within{
+    outline:  solid lightblue;
+}
+.enviar{
+    font-size: 18px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+.enviar:hover{
+    background-color: #666;
+    color: white;
+}
+.div1{
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    width: 11%;
+    margin-top: 8px;
+}
+.video{
+    float: right;
+}
