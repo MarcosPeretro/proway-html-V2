@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background-color: #e0e0e0;
+    
 }
 
 .Active{
@@ -128,19 +129,21 @@ table, th, tr, tbody, td{
     width: 100%;
 }
 
-#leboon{
+#carro{
     width: 10px;
     height: 10px;
     background-color: cyan;
     transition: width 4s, height 4s, transform 2s;
+    
 }
-#leboon:hover{
+#carro:hover{
     background-color: none;
     width: 300px;
     height: 300px;
-    transform: rotate(12turn)
+    transform: rotate(4turn);
+
 }
 #contato{
     font-size: 18px;
-    
 }
+
