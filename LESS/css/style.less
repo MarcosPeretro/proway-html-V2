@@ -1,0 +1,24 @@
+@corFundo: lightblue;
+@cor1: darkgreen;
+@cor2: red;
+@cor3: darkblue;
+@tamanhoFonte: 15px;
+
+body{
+    background-color: @corFundo;
+    color: @cor1;
+}
+p{
+    font-size: if(@tamanhoFonte < 15px, @tamanhoFonte, 20px );
+    color: @cor1;
+    b{
+        color: @cor2;
+        i{
+            text-decoration: underline;
+        }
+    }
+
+    i{
+        color: @cor3;
+    }
+}
