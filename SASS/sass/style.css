@@ -1,0 +1,95 @@
+h1 {
+  color: blue;
+  background-color: lightblue;
+}
+
+p {
+  margin: 8px;
+  padding: 0;
+  color: purple;
+  background-color: lightgreen;
+}
+
+#texto-1 {
+  color: red;
+  background-color: #49a371;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#texto-2 {
+  color: red;
+  background-color: #50b07b;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#texto-3 {
+  color: red;
+  background-color: #5eb785;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#texto-4 {
+  color: red;
+  background-color: #6cbd90;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#texto-5 {
+  color: red;
+  background-color: #7bc39b;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#texto-6 {
+  color: red;
+  background-color: #89caa5;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#texto-7 {
+  color: red;
+  background-color: #97d0b0;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#texto-8 {
+  color: red;
+  background-color: #a5d6bb;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#texto-9 {
+  color: red;
+  background-color: #b3ddc5;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#texto-10 {
+  color: red;
+  background-color: #c1e3d0;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#texto-11 {
+  color: red;
+  background-color: #cfe9db;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#texto-12 {
+  color: red;
+  background-color: #ddf0e5;
+  font-weight: 900;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
