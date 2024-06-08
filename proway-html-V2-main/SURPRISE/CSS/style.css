@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800');
+
+:root {
+    --black: #000;
+    --White: #fff;
+    --bg-color: rgba(202, 202, 27, 0.808);
+    --font-family-1: 'Poppins', sans-sherif;
+}
+
+.wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    display: grid;
+    font-family: var(--font-family-1);
+    place-items: center;
+}
+
+.card {
+    width: 512px;
+    height: 720px;
+    color: var(--black);
+    background-color: var(--White);
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0;
+        transition: all 0.5s linear;
+        border-radius: 16px;
+}
+
+.card .cover-card {
+    padding: 32px;
+    justify-content: center;
+    background-color: var(--black);
+    font-size: 80px;
+    z-index: 2;
+    color: white;
+}
+
+.card:hover > .cover-card {
+    width: 176px;
+    height: 176px;
+    top: 12%;
+    border-radius: 50%;
+    left: calc((100% - 176px) / 2);
+    font-size: 32px;
+    justify-content: center;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px lightgray, -5px -5px 10px lightgray;
+}
+
+.card .card-main-content button:hover {
+    color: var(--black);
+    background-color: transparent;
+}
+.card .cover-card,
+.card .card-main-content   {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 16px;
+    transition: all 1s linear;
+    padding: 80px 46px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card .card-main-content p{
+    color: var(--black);
+    font-size: 20px;
+    margin-block: 23px 54px;
+}
+.card .card-main-content button{
+    cursor: pointer;
+    font-weight: bolder;
+    color: var(--White);
+    background-color: var(--black);
+    padding: 16px 8px;
+    transition: all 1s linear;
+    font-family: var(--font-family-1);
+    border-radius: 4px;
+}
+*,  *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

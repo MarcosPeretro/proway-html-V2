@@ -1,0 +1,24 @@
+$cor: blue
+$corFundo: lightblue
+$cor2: purple
+$corFundo2: lightgreen
+
+h1
+    color: $cor
+    background-color: $corFundo
+
+@mixin margem($valorMargem)
+    margin: $valorMargem
+    padding: 0
+p
+    @include margem(8px)
+    color: $cor2
+    background-color: $corFundo2
+
+@for $i from 1 through 12       
+    $nome: '#texto-' + $i
+    #{$nome}
+        color: red
+        background-color: lighten(#439567, $i * 4)
+        font-weight: 900
+        font-size: 20px

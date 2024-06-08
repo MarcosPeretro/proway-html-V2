@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    background-color: #e0e0e0;
+    
+}
+
+.Active{
+    background-color: rgb(64, 64, 64);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #111;
+    padding: 10px 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: #AAA;
+    padding: 15px;
+    font-size: 32px;
+}
+
+li{
+    float: left;
+}
+
+li a:hover{
+    background-color: rgb(153, 153, 153);
+    color: #444;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+}
+
+table{
+    display: inline-block;
+    margin-top: 70px;
+    border-spacing: 0px;
+    margin: 4px;
+}
+
+table, th, tr, tbody, td{
+    border: 1px solid black;
+}
+
+.pai{
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 11%;
+    padding: 8px 6px;
+    height: auto;
+    width: 11%;
+    border-radius: 5px;
+}
+
+.filho{
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input{
+    display: inline-block;
+    padding: 4px 6px;
+    margin: 2px 8px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.label{
+    display: block;
+
+}
+.input:focus-within{
+    outline:  solid lightblue;
+}
+.enviar{
+    font-size: 18px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+.enviar:hover{
+    background-color: #666;
+    color: white;
+}
+.div1{
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    width: 11%;
+    margin-top: 8px;
+}
+.video{
+    float: right;
+}
+.mrbeast{
+    width: 42%;
+    margin-left: 22px;
+}
+
+.texto{
+    text-align: left;
+    width: 97%;
+    margin: 8px;
+    display: flex;
+    position: relative;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: 140px;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+}
+
+#carro{
+    width: 10px;
+    height: 10px;
+    background-color: cyan;
+    transition: width 4s, height 4s, transform 2s;
+    
+}
+#carro:hover{
+    background-color: none;
+    width: 300px;
+    height: 300px;
+    transform: rotate(4turn);
+
+}
+#contato{
+    font-size: 18px;
+}
+

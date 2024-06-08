@@ -1,0 +1,17 @@
+.quadrado{
+    width: 1000px;
+    height: 200px;
+    background-color: teal;
+}
+
+@media (max-width: 1000px){
+    .quadrado{
+        background-color: red;
+        width: 400px;
+    }
+}
+@media (min-width: 500px){
+    .quadrado{
+        border: 2px solid black;
+    }
+}

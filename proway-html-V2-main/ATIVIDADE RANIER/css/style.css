@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    background-color: rgb(117, 100, 100);
+}
+header{ 
+    background-color: rgb(68, 18, 18);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    list-style: none;
+    background-color: green;
+    width: 700px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 80px;
+}
+header nav ul li{
+    transition: 0.3s;
+    cursor: pointer;
+}
+header nav ul li:hover{
+    scale: 1.2;
+}
+header nav img{
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 50%;
+    width: 60px;
+}
+header nav{
+    display: flex;
+    padding: 6px 8px;
+    border-radius: 22px;
+}
+.fundo {
+    display: flex;
+    justify-content: space-around;
+    background-color: #222020;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.corpo{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+
+.dados h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.dados .botao{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

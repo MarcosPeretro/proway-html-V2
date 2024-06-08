@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    list-style: none;
+}
+header{
+    display: flex;
+    background-color: cadetblue;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 50px;
+    position: fixed;
+    width: 98%;
+}
+
+header .menu{
+    display: none;
+}
+
+header nav ul li{
+    transition: 0.3s;
+}
+
+header nav ul li:hover{
+    scale: 1.1;    
+    cursor: pointer;
+}
+
+
+@media (max-width: 680px){
+    header .menu{
+        display: flex;
+    }
+    header nav{
+        display: none;
+    }
+
+    header nav ul{
+        display: inline;
+        justify-content: space-between;
+        width: 100px;
+        list-style: none;
+    }
+    header nav ul li{
+        margin-bottom: 20px;
+        font-size: larger;
+    }
+    .hamburguer{
+        display: flex;
+    }
+}
