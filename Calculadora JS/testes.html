@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JS/calculadora.js" defer></script>
+    <script src="https://kit.fontawesome.com/491d639334.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="cascade.css">
+    <title>calculadora</title>
+</head>
+
+<body>
+        <div>
+            <div>
+                <label for="numero-1">Insira o primeiro número</label>
+                <input type="number" name="numero-1" id="numero-1">
+            </div>
+            <div>
+                <label for="numero-2">Insira o segundo número</label>
+                <input type="number" name="numero-2" id="numero-2">
+            </div>
+
+            <p>Qual operação quer executar ?</p>
+
+            <input type="button" name="Soma" id="soma" value="+" onclick="Somar()">
+
+            <input type="button" name="Subtração" id="subtracao" value="-" onclick="Subtrair()">
+
+            <input type="button" name="Multiplicação" id="multiplicacao" value="*" onclick="Multiplicar()">
+
+            <input type="button" name="Divisão" id="divisao" value="/" onclick="Dividir()">
+
+            <input type="button" name="Igual" id="igual" value="=" onclick="setter()">
+
+            <!-- <button onclick="Apagar"><i class="fa-solid fa-delete-left"></i></button> -->
+
+            <p>Resultado : <input type="text" name="Resultado" id="Resultado" disabled></p>
+            <p>Historico : <textarea name="Historico" id="Historico" cols="60" rows="20"></textarea></p>
+</body>
+
+</html>
