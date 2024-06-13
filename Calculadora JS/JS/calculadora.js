@@ -1,33 +1,81 @@
-function preencherValor(){
-    numero1 = document.getElementById("numero-1").value
-    numero2 = document.getElementById("numero-2").value
+function preencherValor() {
+    numero1 = parseFloat(document.getElementById("numero-1").value)
+    numero2 = parseFloat(document.getElementById("numero-2").value)
 }
 
 function Somar() {
     preencherValor();
-    valor = parseFloat(numero1) + parseFloat(numero2);
+    valor = (numero1) + (numero2);
+    operacao = 1;
 }
 
-function Subtrair(){
+function Subtrair() {
     preencherValor();
-    valor = parseFloat(numero1) - parseFloat(numero2);
+    valor = (numero1) - (numero2);
+    operacao = 2;
 }
 
-function Multiplicar(){
+function Multiplicar() {
     preencherValor();
-    valor = parseFloat(numero1) * parseFloat(numero2);
+    valor = (numero1) * (numero2);
+    operacao = 3;
 }
 
-function Dividir(){
+function Dividir() {
     preencherValor();
-    valor = parseFloat(numero1) / parseFloat(numero2);
+    valor = (numero1) / (numero2);
+    operacao = 4;
 }
 
-function setter(){
+function setter() {
+    if(isNaN(numero1) || isNaN(numero2) || isNaN(valor) || valor == Infinity){
+        document.getElementById("resultado").value = "valor invalido";
+    }
+    else{
+        document.getElementById("resultado").value = valor;
+    }
 
-    document.getElementById("Resultado").value = valor;
     historico();
 }
-function historico(){
-    document.getElementById("Historico").value += numero1 + "" + "" + numero2 + " = " + valor;
+function limparValores() {
+    numero1 = "";
+    numero2 = "";
+    valor = "";
+    document.getElementById("numero-1").value = "";
+    document.getElementById("numero-2").value = "";
+    document.getElementById("resultado").value = "";
+}
+function limparHistorico() {
+    document.getElementById("Historico").value = "";
+}
+function historico() {
+    if (isNaN(numero1) || isNaN(numero2) || isNaN(valor)) {}
+    else {
+        switch (operacao) {
+            case 1:
+                if (valor == Infinity) {}
+                else {
+                    document.getElementById("Historico").innerHTML += numero1 + " " + "+" + " " + numero2 + " = " + valor + ".&#10;";
+                }
+                break;
+            case 2:
+                if (valor == Infinity) {}
+                else {
+                    document.getElementById("Historico").innerHTML += numero1 + " " + "-" + " " + numero2 + " = " + valor + ".&#10;";
+                }
+                break;
+            case 3:
+                if (valor == Infinity) {}
+                else {
+                    document.getElementById("Historico").innerHTML += numero1 + " " + "*" + " " + numero2 + " = " + valor + ".&#10;";
+                }
+                break;
+            case 4:
+                if (valor == Infinity) {}
+                else {
+                    document.getElementById("Historico").innerHTML += numero1 + " " + "/" + " " + numero2 + " = " + valor + ".&#10;";
+                }
+                break;
+        }
+    }
 }

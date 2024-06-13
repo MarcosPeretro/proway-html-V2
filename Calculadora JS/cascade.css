@@ -1,4 +1,14 @@
 input[type=number]::-webkit-inner-spin-button{
     -webkit-appearance: none;
 }
+#historico{
+    display: flex;   
+}
+#resultado{
+    width: 180px;
+
+}
+textarea{
+    margin-left: 4px;
+}   
 
