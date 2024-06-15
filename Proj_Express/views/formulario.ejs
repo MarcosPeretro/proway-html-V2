@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <p><a href=/home>Home</a> | <a href=/contato>Contato</a> | <a href="/form"> Formulário</a></p>
+    <h1>Formulário</h1>
+    <form>
+        <p><input type="text" name="dsNome" id="dsNome" placeholder="Nome"></p>
+        <p><input type="email" name="dsEmail" id="dsEmail" placeholder="email"></p>
+        <label for="ieNota">Qual nota voce dá para o curso</label>
+        
+        <p><input type="radio" name="ieNota" id="ieNota" value="1" >Ótimo</p>
+        <p><input type="radio" name="ieNota" id="ieNota" value="2" >Muito Bom</p>
+        <p><input type="radio" name="ieNota" id="ieNota" value="3" >Bom</p>
+        <p><input type="radio" name="ieNota" id="ieNota" value="4" >Precisa melhorar</p>
+
+        <button type="reset" >Limpar</button>
+        
+        <input type="submit" value="Enviar2" onclick='this.form;action = "formAction";'>
+
+    </form>
+</body>
+</html>
