@@ -1,0 +1,18 @@
+{
+  "name": "atividade-server",
+  "version": "1.0.0",
+  "description": "atividade onde será feito um server simples com 1 pagina principal e 1 pagina de formulario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Marcos Vinicius Peretro Júnior",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
